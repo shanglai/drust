@@ -1,0 +1,33 @@
+# === Rust Core ===
+/backend/rust-core/target/
+/backend/rust-core/Cargo.lock
+**/*.rs.bk
+
+# === Python API ===
+/backend/python-api/__pycache__/
+/backend/python-api/.venv/
+/backend/python-api/venv/
+/backend/python-api/*.py[cod]
+/backend/python-api/*.egg-info/
+/backend/python-api/.env
+/backend/python-api/.pytest_cache/
+/backend/python-api/pip-wheel-metadata/
+/backend/python-api/*.log
+
+# === Node/React Frontend ===
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+/frontend/.next/
+/frontend/.turbo/
+/frontend/.cache/
+
+# === Docker ===
+*.pid
+docker-compose.override.yml
+
+# === Editor & System ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
